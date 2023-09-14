@@ -1,6 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
-
-body {
+@import-normalize;
+bring in normalize.css styles body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,4 +11,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 10px;
+}
+
+.profile {
+  border: 1px solid #b4afaf;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #404055;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+}
+
+.tag {
+  color: #a19c9c;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+
+.location {
+  color: #a19c9c;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 15px;
+  padding: 0;
+  margin: 10px;
+}
+
+.item-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 15px;
+  color: #a19c9c;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+
+.quantity {
+  color: #404055;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+
+  margin-top: 5px;
 }
