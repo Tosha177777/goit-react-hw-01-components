@@ -8,8 +8,8 @@ export default function Statistics({ title, stats }) {
         {stats.map(({ id, label, percentage }) => {
           return (
             <li
-              className={css.item}
               key={id}
+              className={css.item}
               style={{
                 backgroundColor: `#${Math.floor(
                   Math.random() * 16777215
