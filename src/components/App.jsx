@@ -27,17 +27,10 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics
-        key={data.map(({ id }) => id)}
-        title="Upload stats"
-        stats={data}
-      />
+      <Statistics title="Upload stats" stats={data} />
       {/* <Statistics stats={data} /> */}
       <FriendsList friends={friends} />
-      <TransactionHistory
-        key={transactions.map(({ id }) => id)}
-        items={transactions}
-      />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
